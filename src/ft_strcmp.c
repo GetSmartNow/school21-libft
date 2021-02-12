@@ -6,7 +6,7 @@
 /*   By: ctycho <ctycho@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/09 09:51:44 by ctycho            #+#    #+#             */
-/*   Updated: 2021/02/09 09:52:40 by ctycho           ###   ########.fr       */
+/*   Updated: 2021/02/12 15:47:37 by ctycho           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ int		ft_strcmp(const char *s1, const char *s2)
 
 	i = 0;
 	res = 0;
+	if (!s1 || !s2)
+		return (-1);
 	while (s1[i] || s2[i])
 	{
 		if (s1[i] < s2[i])
