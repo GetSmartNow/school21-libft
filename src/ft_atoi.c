@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ctycho <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: ctycho <ctycho@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 14:18:02 by ctycho            #+#    #+#             */
-/*   Updated: 2020/11/11 17:23:39 by ctycho           ###   ########.fr       */
+/*   Updated: 2021/02/12 14:39:49 by ctycho           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int		ft_atoi(const char *str)
 {
@@ -43,9 +41,9 @@ int		ft_atoi(const char *str)
 	return (res * flag);
 }
 
-int		main(void)
-{
-	printf("%d\n", atoi("00000000000000000009"));
-	printf("%d\n", ft_atoi("00000000000000000009"));
-	return (0);
-}
+// int		main(void)
+// {
+// 	printf("%d\n", atoi("00000000000000000009"));
+// 	printf("%d\n", ft_atoi("00000000000000000009"));
+// 	return (0);
+// }
